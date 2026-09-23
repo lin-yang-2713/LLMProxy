@@ -376,9 +376,3 @@ For hardened deployments, pair with [secure-proxy-manager](https://github.com/fa
 ## CI/CD
 
 GitHub Actions runs 8 jobs on every push: lint (ruff), type check (mypy), dependency audit (pip-audit), supply chain scan (`.pth` malware + blocked packages), syntax check, test suite with coverage gate (65%), mathematical invariants, and Docker image size check.
-
----
-
-## License
-
-MIT. See [LICENSE](LICENSE).
